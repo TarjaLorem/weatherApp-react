@@ -3,8 +3,8 @@ import './SearchForm.css';
 
 const SearchForm = props => (
   <form className="search-form" onSubmit={props.getWeatherData}>
-		<input name="city" placeholder="City"></input>
-		<button>Search</button>
+		<input className="search-input" name="city" placeholder="City" type="text"></input>
+		<button className="search-btn">Search</button>
   </form>
 );
 export default SearchForm;
